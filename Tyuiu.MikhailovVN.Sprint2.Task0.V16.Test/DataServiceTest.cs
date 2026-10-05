@@ -9,7 +9,7 @@ namespace Tyuiu.MikhailovVN.Sprint2.Task0.V16.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int x = 1024;
+            int x = 1025;
             int y = 275;
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);

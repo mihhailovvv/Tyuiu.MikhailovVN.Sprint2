@@ -7,7 +7,7 @@ namespace Tyuiu.MikhailovVN.Sprint2.Task0.V16
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            int x = 1024;
+            int x = 1025;
             int y = 275;
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);

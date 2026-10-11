@@ -9,21 +9,21 @@ namespace Tyuiu.MikhailovVN.Sprint2.Task4.V24.Test
         public void TestMethod1()
         {
             DataService service = new DataService();
-            double x = 2;
-            double y = -22;
+            double x = 5;
+            double y = 5;
             double res = service.Calculate(x, y);
-            double wait = 760.5;
-            Assert.AreEqual(res, wait);
+            double wait = 0.942;
+            Assert.AreEqual(wait, res);
         }
 
         public void TestMethod2()
         {
             DataService service = new DataService();
-            double x = 0;
-            double y = 0;
+            double x = 5;
+            double y = 5;
             double res = service.Calculate(x, y);
-            double wait = 0.833;
-            Assert.AreEqual(res, wait);
+            double wait = 0.942;
+            Assert.AreEqual(wait, res);
         }
     }
 }

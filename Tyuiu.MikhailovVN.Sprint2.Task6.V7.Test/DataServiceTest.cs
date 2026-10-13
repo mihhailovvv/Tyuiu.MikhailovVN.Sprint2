@@ -10,10 +10,10 @@ namespace Tyuiu.MikhailovVN.Sprint2.Task6.V7.Test
         {
             DataService ds = new DataService();
 
-            Assert.AreEqual("Январь", ds.FindMonthName(1990, 0));   
-            Assert.AreEqual("Февраль", ds.FindMonthName(1990, 1));  
-            Assert.AreEqual("Декабрь", ds.FindMonthName(1990, 11)); 
-            Assert.AreEqual("Январь", ds.FindMonthName(1990, 12));  
+            Assert.AreEqual("январь", ds.FindMonthName(1990, 0));   
+            Assert.AreEqual("февраль", ds.FindMonthName(1990, 1));  
+            Assert.AreEqual("декабрь", ds.FindMonthName(1990, 11)); 
+            Assert.AreEqual("январь", ds.FindMonthName(1990, 12));  
         }
     }
 }
